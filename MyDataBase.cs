@@ -7,7 +7,7 @@ using System.Web;
 
 public class MyDataBase
 {
-    //התחברת
+    //connected
     private static OleDbConnection GetConnection()
     {
         string location = HttpContext.Current.Server.MapPath("~/DB1.mdb");
